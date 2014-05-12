@@ -1,0 +1,58 @@
+<header>
+	<div class="container">
+		<ul class="nav pull-left">
+		  <li class="logo"><%= link_to "Suitefolio", root_path %></li>
+		  <% if user_signed_in? %>	
+			<li class="dropdown notifications">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon icon-white icon-globe"></i>
+					<% if current_user.notifications.where(:read => false).count > 0 %>
+					<span class="badge badge-important"><%= current_user.notifications.where(:read => false).count %></span>
+					<% end %>
+				</a>
+				<ul class="dropdown-menu">
+					<% current_user.notifications.limit(5).each do |n| %>
+					<li<% if !n.read %> class="read"<% end %>><%= link_to n.notify do %><%= n.notify.notification %> <span><%= time_ago_in_words(n.created_at) %> ago</span><% end %></li>
+					<% end %>
+					<li><%= link_to "See all notifications", notifications_path %></li>
+				</ul>
+			</li>
+			<!-- <li><%#= link_to(:messages) do %>
+					<i class="icon icon-envelope icon-white"></i>
+					<%# if current_user.unread > 0 %>
+					<span class="badge badge-important"><%#= current_user.unread %></span>
+					<%# end %>
+				<%# end %>
+			</li> -->
+			<li><%= link_to "Portfolio", current_user %></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Collaborators</a>
+				<ul class="dropdown-menu">
+					<li><%#= link_to "Jobs", jobs_path %></li>
+					<li><%#= link_to "Add new", new_job_path %></li>
+				</ul>
+			</li>
+			<% end %>
+		</ul>
+		<ul class="nav pull-right">
+			<% if user_signed_in? %>
+			<li class="search">
+				<%= render 'shared/search' %>
+			</li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+				<i class="icon-white icon-user"></i> <%= current_user.name %>
+				</a>
+				<ul class="dropdown-menu">
+					<li><%= link_to "View profile", current_user %></li>
+					<li><%= link_to "Edit profile", edit_user_path(current_user) %></li>
+					<li class="divider"></li>
+					<li><%= link_to "Sign out", destroy_user_session_path, method: "delete" %></li>
+				</ul>
+			</li>
+			<% else %>
+				<li><%= link_to 'Sign in', new_user_session_path %></li>
+				<li><%= link_to 'Register', new_user_registration_path %></li>
+			<% end %>
+		</ul>
+	</div>
+</header>

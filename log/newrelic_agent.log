@@ -1,0 +1,340 @@
+# Logfile created on 2014-03-07 03:48:15 -0500 by logger.rb/41954
+[03/07/14 03:48:15 -0500 andres-mbp.home (19418)] INFO : Starting the New Relic agent in "development" environment.
+[03/07/14 03:48:15 -0500 andres-mbp.home (19418)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/07/14 03:48:15 -0500 andres-mbp.home (19418)] INFO : Reading configuration from config/newrelic.yml
+[03/07/14 03:48:15 -0500 andres-mbp.home (19418)] INFO : New Relic Agent Developer Mode enabled.
+[03/07/14 03:48:15 -0500 andres-mbp.home (19418)] INFO : Enabling the Request Sampler.
+[03/07/14 03:48:15 -0500 andres-mbp.home (19418)] INFO : Environment: development
+[03/07/14 03:48:15 -0500 andres-mbp.home (19418)] INFO : Dispatcher: webrick
+[03/07/14 03:48:15 -0500 andres-mbp.home (19418)] INFO : Application: My Application
+[03/07/14 03:48:15 -0500 andres-mbp.home (19418)] WARN : Agent configured not to send data in this environment.
+[03/07/14 03:48:15 -0500 andres-mbp.home (19418)] INFO : Installing ActiveRecord instrumentation
+[03/07/14 03:48:15 -0500 andres-mbp.home (19418)] INFO : Installing Net instrumentation
+[03/07/14 03:48:15 -0500 andres-mbp.home (19418)] INFO : Installing deferred Rack instrumentation
+[03/07/14 03:48:15 -0500 andres-mbp.home (19418)] INFO : Installing Rails 3 Controller instrumentation
+[03/07/14 03:48:16 -0500 andres-mbp.home (19418)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/07/14 03:48:16 -0500 andres-mbp.home (19418)] INFO : Installing Rails3 Error instrumentation
+[03/07/14 03:48:16 -0500 andres-mbp.home (19418)] INFO : Finished instrumentation
+[03/07/14 03:48:16 -0500 andres-mbp.home (19418)] INFO : Doing deferred dependency-detection before Rack startup
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : Starting the New Relic agent in "development" environment.
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : Reading configuration from config/newrelic.yml
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : New Relic Agent Developer Mode enabled.
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : Enabling the Request Sampler.
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : Environment: development
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : No known dispatcher detected.
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : Application: My Application
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] WARN : Agent configured not to send data in this environment.
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : Installing ActiveRecord instrumentation
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : Installing Net instrumentation
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : Installing deferred Rack instrumentation
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : Installing Rails 3 Controller instrumentation
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : Installing Rails3 Error instrumentation
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : Finished instrumentation
+[03/11/14 02:32:43 -0400 andres-mbp.home (6650)] INFO : Doing deferred dependency-detection before Rack startup
+[03/11/14 03:04:13 -0400 andres-mbp.home (6650)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Called id for nil, which would mistakenly be 8 -- if you really wanted the id of nil, use object_id
+[03/11/14 03:04:26 -0400 andres-mbp.home (6650)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Called id for nil, which would mistakenly be 8 -- if you really wanted the id of nil, use object_id
+[03/11/14 03:04:26 -0400 andres-mbp.home (6650)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Called id for nil, which would mistakenly be 8 -- if you really wanted the id of nil, use object_id
+[03/11/14 03:11:13 -0400 andres-mbp.home (6894)] INFO : Starting the New Relic agent in "development" environment.
+[03/11/14 03:11:13 -0400 andres-mbp.home (6894)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/11/14 03:11:13 -0400 andres-mbp.home (6894)] INFO : Reading configuration from config/newrelic.yml
+[03/11/14 03:11:13 -0400 andres-mbp.home (6894)] INFO : New Relic Agent Developer Mode enabled.
+[03/11/14 03:11:13 -0400 andres-mbp.home (6894)] INFO : Enabling the Request Sampler.
+[03/11/14 03:11:13 -0400 andres-mbp.home (6894)] INFO : Environment: development
+[03/11/14 03:11:13 -0400 andres-mbp.home (6894)] INFO : No known dispatcher detected.
+[03/11/14 03:11:13 -0400 andres-mbp.home (6894)] INFO : Application: My Application
+[03/11/14 03:11:13 -0400 andres-mbp.home (6894)] WARN : Agent configured not to send data in this environment.
+[03/11/14 03:11:13 -0400 andres-mbp.home (6894)] INFO : Installing ActiveRecord instrumentation
+[03/11/14 03:11:13 -0400 andres-mbp.home (6894)] INFO : Installing Net instrumentation
+[03/11/14 03:11:13 -0400 andres-mbp.home (6894)] INFO : Installing deferred Rack instrumentation
+[03/11/14 03:11:13 -0400 andres-mbp.home (6894)] INFO : Installing Rails 3 Controller instrumentation
+[03/11/14 03:11:14 -0400 andres-mbp.home (6894)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/11/14 03:11:14 -0400 andres-mbp.home (6894)] INFO : Installing Rails3 Error instrumentation
+[03/11/14 03:11:14 -0400 andres-mbp.home (6894)] INFO : Finished instrumentation
+[03/11/14 03:11:14 -0400 andres-mbp.home (6894)] INFO : Doing deferred dependency-detection before Rack startup
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] INFO : Starting the New Relic agent in "development" environment.
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] INFO : Reading configuration from config/newrelic.yml
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] INFO : New Relic Agent Developer Mode enabled.
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] INFO : Enabling the Request Sampler.
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] INFO : Environment: development
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] INFO : No known dispatcher detected.
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] INFO : Application: My Application
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] WARN : Agent configured not to send data in this environment.
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] INFO : Installing ActiveRecord instrumentation
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] INFO : Installing Net instrumentation
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] INFO : Installing deferred Rack instrumentation
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] INFO : Installing Rails 3 Controller instrumentation
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] INFO : Installing Rails3 Error instrumentation
+[03/11/14 04:14:03 -0400 andres-mbp.home (7583)] INFO : Finished instrumentation
+[03/11/14 04:14:05 -0400 andres-mbp.home (7583)] INFO : Doing deferred dependency-detection before Rack startup
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] INFO : Starting the New Relic agent in "development" environment.
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] INFO : Reading configuration from config/newrelic.yml
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] INFO : New Relic Agent Developer Mode enabled.
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] INFO : Enabling the Request Sampler.
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] INFO : Environment: development
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] INFO : No known dispatcher detected.
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] INFO : Application: My Application
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] WARN : Agent configured not to send data in this environment.
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] INFO : Installing ActiveRecord instrumentation
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] INFO : Installing Net instrumentation
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] INFO : Installing deferred Rack instrumentation
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] INFO : Installing Rails 3 Controller instrumentation
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] INFO : Installing Rails3 Error instrumentation
+[03/11/14 05:23:26 -0400 andres-mbp.home (8257)] INFO : Finished instrumentation
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] INFO : Starting the New Relic agent in "development" environment.
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] INFO : Reading configuration from config/newrelic.yml
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] INFO : New Relic Agent Developer Mode enabled.
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] INFO : Enabling the Request Sampler.
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] INFO : Environment: development
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] INFO : No known dispatcher detected.
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] INFO : Application: My Application
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] WARN : Agent configured not to send data in this environment.
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] INFO : Installing ActiveRecord instrumentation
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] INFO : Installing Net instrumentation
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] INFO : Installing deferred Rack instrumentation
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] INFO : Installing Rails 3 Controller instrumentation
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] INFO : Installing Rails3 Error instrumentation
+[03/12/14 03:10:22 -0400 andres-mbp.home (2276)] INFO : Finished instrumentation
+[03/12/14 03:10:23 -0400 andres-mbp.home (2276)] INFO : Doing deferred dependency-detection before Rack startup
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] INFO : Starting the New Relic agent in "development" environment.
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] INFO : Reading configuration from config/newrelic.yml
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] INFO : New Relic Agent Developer Mode enabled.
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] INFO : Enabling the Request Sampler.
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] INFO : Environment: development
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] INFO : No known dispatcher detected.
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] INFO : Application: My Application
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] WARN : Agent configured not to send data in this environment.
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] INFO : Installing ActiveRecord instrumentation
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] INFO : Installing Net instrumentation
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] INFO : Installing deferred Rack instrumentation
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] INFO : Installing Rails 3 Controller instrumentation
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] INFO : Installing Rails3 Error instrumentation
+[03/22/14 07:30:11 -0400 Andres-MacBook-Pro.local (94817)] INFO : Finished instrumentation
+[03/22/14 07:30:12 -0400 Andres-MacBook-Pro.local (94817)] INFO : Doing deferred dependency-detection before Rack startup
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] INFO : Starting the New Relic agent in "development" environment.
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] INFO : Reading configuration from config/newrelic.yml
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] INFO : New Relic Agent Developer Mode enabled.
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] INFO : Enabling the Request Sampler.
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] INFO : Environment: development
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] INFO : No known dispatcher detected.
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] INFO : Application: My Application
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] WARN : Agent configured not to send data in this environment.
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] INFO : Installing ActiveRecord instrumentation
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] INFO : Installing Net instrumentation
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] INFO : Installing deferred Rack instrumentation
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] INFO : Installing Rails 3 Controller instrumentation
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] INFO : Installing Rails3 Error instrumentation
+[03/22/14 07:33:28 -0400 Andres-MacBook-Pro.local (94882)] INFO : Finished instrumentation
+[03/22/14 07:36:07 -0400 Andres-MacBook-Pro.local (95019)] INFO : Starting the New Relic agent in "development" environment.
+[03/22/14 07:36:07 -0400 Andres-MacBook-Pro.local (95019)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/22/14 07:36:07 -0400 Andres-MacBook-Pro.local (95019)] INFO : Reading configuration from config/newrelic.yml
+[03/22/14 07:36:07 -0400 Andres-MacBook-Pro.local (95019)] INFO : New Relic Agent Developer Mode enabled.
+[03/22/14 07:36:07 -0400 Andres-MacBook-Pro.local (95019)] INFO : Enabling the Request Sampler.
+[03/22/14 07:36:07 -0400 Andres-MacBook-Pro.local (95019)] INFO : Environment: development
+[03/22/14 07:36:07 -0400 Andres-MacBook-Pro.local (95019)] INFO : No known dispatcher detected.
+[03/22/14 07:36:07 -0400 Andres-MacBook-Pro.local (95019)] INFO : Application: My Application
+[03/22/14 07:36:07 -0400 Andres-MacBook-Pro.local (95019)] WARN : Agent configured not to send data in this environment.
+[03/22/14 07:36:07 -0400 Andres-MacBook-Pro.local (95019)] INFO : Installing ActiveRecord instrumentation
+[03/22/14 07:36:07 -0400 Andres-MacBook-Pro.local (95019)] INFO : Installing Net instrumentation
+[03/22/14 07:36:07 -0400 Andres-MacBook-Pro.local (95019)] INFO : Installing deferred Rack instrumentation
+[03/22/14 07:36:07 -0400 Andres-MacBook-Pro.local (95019)] INFO : Installing Rails 3 Controller instrumentation
+[03/22/14 07:36:08 -0400 Andres-MacBook-Pro.local (95019)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/22/14 07:36:08 -0400 Andres-MacBook-Pro.local (95019)] INFO : Installing Rails3 Error instrumentation
+[03/22/14 07:36:08 -0400 Andres-MacBook-Pro.local (95019)] INFO : Finished instrumentation
+[03/22/14 07:36:08 -0400 Andres-MacBook-Pro.local (95019)] INFO : Doing deferred dependency-detection before Rack startup
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] INFO : Starting the New Relic agent in "development" environment.
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] INFO : Reading configuration from config/newrelic.yml
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] INFO : New Relic Agent Developer Mode enabled.
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] INFO : Enabling the Request Sampler.
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] INFO : Environment: development
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] INFO : No known dispatcher detected.
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] INFO : Application: My Application
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] WARN : Agent configured not to send data in this environment.
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] INFO : Installing ActiveRecord instrumentation
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] INFO : Installing Net instrumentation
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] INFO : Installing deferred Rack instrumentation
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] INFO : Installing Rails 3 Controller instrumentation
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] INFO : Installing Rails3 Error instrumentation
+[03/22/14 07:45:33 -0400 Andres-MacBook-Pro.local (95105)] INFO : Finished instrumentation
+[03/22/14 07:45:34 -0400 Andres-MacBook-Pro.local (95105)] INFO : Doing deferred dependency-detection before Rack startup
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] INFO : Starting the New Relic agent in "development" environment.
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] INFO : Reading configuration from config/newrelic.yml
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] INFO : New Relic Agent Developer Mode enabled.
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] INFO : Enabling the Request Sampler.
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] INFO : Environment: development
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] INFO : No known dispatcher detected.
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] INFO : Application: My Application
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] WARN : Agent configured not to send data in this environment.
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] INFO : Installing ActiveRecord instrumentation
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] INFO : Installing Net instrumentation
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] INFO : Installing deferred Rack instrumentation
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] INFO : Installing Rails 3 Controller instrumentation
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] INFO : Installing Rails3 Error instrumentation
+[03/22/14 14:36:56 -0400 Andres-MacBook-Pro.local (98358)] INFO : Finished instrumentation
+[03/22/14 14:36:57 -0400 Andres-MacBook-Pro.local (98358)] INFO : Doing deferred dependency-detection before Rack startup
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] INFO : Starting the New Relic agent in "development" environment.
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] INFO : Reading configuration from config/newrelic.yml
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] INFO : New Relic Agent Developer Mode enabled.
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] INFO : Enabling the Request Sampler.
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] INFO : Environment: development
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] INFO : No known dispatcher detected.
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] INFO : Application: My Application
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] WARN : Agent configured not to send data in this environment.
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] INFO : Installing ActiveRecord instrumentation
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] INFO : Installing Net instrumentation
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] INFO : Installing deferred Rack instrumentation
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] INFO : Installing Rails 3 Controller instrumentation
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] INFO : Installing Rails3 Error instrumentation
+[03/22/14 14:48:29 -0400 Andres-MacBook-Pro.local (98481)] INFO : Finished instrumentation
+[03/22/14 14:48:30 -0400 Andres-MacBook-Pro.local (98481)] INFO : Doing deferred dependency-detection before Rack startup
+[03/22/14 15:32:16 -0400 Andres-MacBook-Pro.local (98811)] INFO : Starting the New Relic agent in "development" environment.
+[03/22/14 15:32:16 -0400 Andres-MacBook-Pro.local (98811)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/22/14 15:32:16 -0400 Andres-MacBook-Pro.local (98811)] INFO : Reading configuration from config/newrelic.yml
+[03/22/14 15:32:16 -0400 Andres-MacBook-Pro.local (98811)] INFO : New Relic Agent Developer Mode enabled.
+[03/22/14 15:32:16 -0400 Andres-MacBook-Pro.local (98811)] INFO : Enabling the Request Sampler.
+[03/22/14 15:32:16 -0400 Andres-MacBook-Pro.local (98811)] INFO : Environment: development
+[03/22/14 15:32:16 -0400 Andres-MacBook-Pro.local (98811)] INFO : No known dispatcher detected.
+[03/22/14 15:32:16 -0400 Andres-MacBook-Pro.local (98811)] INFO : Application: My Application
+[03/22/14 15:32:16 -0400 Andres-MacBook-Pro.local (98811)] WARN : Agent configured not to send data in this environment.
+[03/22/14 15:32:16 -0400 Andres-MacBook-Pro.local (98811)] INFO : Installing ActiveRecord instrumentation
+[03/22/14 15:32:16 -0400 Andres-MacBook-Pro.local (98811)] INFO : Installing Net instrumentation
+[03/22/14 15:32:16 -0400 Andres-MacBook-Pro.local (98811)] INFO : Installing deferred Rack instrumentation
+[03/22/14 15:32:16 -0400 Andres-MacBook-Pro.local (98811)] INFO : Installing Rails 3 Controller instrumentation
+[03/22/14 15:32:17 -0400 Andres-MacBook-Pro.local (98811)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/22/14 15:32:17 -0400 Andres-MacBook-Pro.local (98811)] INFO : Installing Rails3 Error instrumentation
+[03/22/14 15:32:17 -0400 Andres-MacBook-Pro.local (98811)] INFO : Finished instrumentation
+[03/22/14 15:32:17 -0400 Andres-MacBook-Pro.local (98811)] INFO : Doing deferred dependency-detection before Rack startup
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : Starting the New Relic agent in "development" environment.
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : Reading configuration from config/newrelic.yml
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : New Relic Agent Developer Mode enabled.
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : Enabling the Request Sampler.
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : Environment: development
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : No known dispatcher detected.
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : Application: My Application
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] WARN : Agent configured not to send data in this environment.
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : Installing ActiveRecord instrumentation
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : Installing Net instrumentation
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : Installing deferred Rack instrumentation
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : Installing Rails 3 Controller instrumentation
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : Installing Rails3 Error instrumentation
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : Finished instrumentation
+[03/22/14 15:36:13 -0400 Andres-MacBook-Pro.local (98863)] INFO : Doing deferred dependency-detection before Rack startup
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] INFO : Starting the New Relic agent in "development" environment.
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] INFO : Reading configuration from config/newrelic.yml
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] INFO : New Relic Agent Developer Mode enabled.
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] INFO : Enabling the Request Sampler.
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] INFO : Environment: development
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] INFO : No known dispatcher detected.
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] INFO : Application: My Application
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] WARN : Agent configured not to send data in this environment.
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] INFO : Installing ActiveRecord instrumentation
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] INFO : Installing Net instrumentation
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] INFO : Installing deferred Rack instrumentation
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] INFO : Installing Rails 3 Controller instrumentation
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] INFO : Installing Rails3 Error instrumentation
+[03/22/14 15:36:45 -0400 Andres-MacBook-Pro.local (98878)] INFO : Finished instrumentation
+[03/22/14 15:36:46 -0400 Andres-MacBook-Pro.local (98878)] INFO : Doing deferred dependency-detection before Rack startup
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : Starting the New Relic agent in "development" environment.
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : Reading configuration from config/newrelic.yml
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : New Relic Agent Developer Mode enabled.
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : Enabling the Request Sampler.
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : Environment: development
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : No known dispatcher detected.
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : Application: My Application
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] WARN : Agent configured not to send data in this environment.
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : Installing ActiveRecord instrumentation
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : Installing Net instrumentation
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : Installing deferred Rack instrumentation
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : Installing Rails 3 Controller instrumentation
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : Installing Rails3 Error instrumentation
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : Finished instrumentation
+[03/25/14 20:27:19 -0400 pivotal-guest-7-120.ny.pivotallabs.com (1316)] INFO : Doing deferred dependency-detection before Rack startup
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] INFO : Starting the New Relic agent in "development" environment.
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] INFO : Reading configuration from config/newrelic.yml
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] INFO : New Relic Agent Developer Mode enabled.
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] INFO : Enabling the Request Sampler.
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] INFO : Environment: development
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] INFO : No known dispatcher detected.
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] INFO : Application: My Application
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] WARN : Agent configured not to send data in this environment.
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] INFO : Installing ActiveRecord instrumentation
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] INFO : Installing Net instrumentation
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] INFO : Installing deferred Rack instrumentation
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] INFO : Installing Rails 3 Controller instrumentation
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] INFO : Installing Rails3 Error instrumentation
+[04/18/14 15:21:29 -0400 andres-mbp.home (4185)] INFO : Finished instrumentation
+[04/18/14 15:21:30 -0400 andres-mbp.home (4185)] INFO : Doing deferred dependency-detection before Rack startup
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : Starting the New Relic agent in "development" environment.
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : Reading configuration from config/newrelic.yml
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : New Relic Agent Developer Mode enabled.
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : Enabling the Request Sampler.
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : Environment: development
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : No known dispatcher detected.
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : Application: My Application
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] WARN : Agent configured not to send data in this environment.
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : Installing ActiveRecord instrumentation
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : Installing Net instrumentation
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : Installing deferred Rack instrumentation
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : Installing Rails 3 Controller instrumentation
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : Installing Rails3 Error instrumentation
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : Finished instrumentation
+[04/18/14 15:29:30 -0400 andres-mbp.home (4259)] INFO : Doing deferred dependency-detection before Rack startup
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] INFO : Starting the New Relic agent in "development" environment.
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] INFO : Reading configuration from config/newrelic.yml
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] INFO : New Relic Agent Developer Mode enabled.
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] INFO : Enabling the Request Sampler.
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] INFO : Environment: development
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] INFO : No known dispatcher detected.
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] INFO : Application: My Application
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] WARN : Agent configured not to send data in this environment.
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] INFO : Installing ActiveRecord instrumentation
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] INFO : Installing Net instrumentation
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] INFO : Installing deferred Rack instrumentation
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] INFO : Installing Rails 3 Controller instrumentation
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] INFO : Installing Rails3 Error instrumentation
+[04/18/14 15:58:15 -0400 andres-mbp.home (4733)] INFO : Finished instrumentation
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] INFO : Starting the New Relic agent in "development" environment.
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] INFO : Reading configuration from config/newrelic.yml
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] INFO : New Relic Agent Developer Mode enabled.
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] INFO : Enabling the Request Sampler.
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] INFO : Environment: development
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] INFO : No known dispatcher detected.
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] INFO : Application: My Application
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] WARN : Agent configured not to send data in this environment.
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] INFO : Installing ActiveRecord instrumentation
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] INFO : Installing Net instrumentation
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] INFO : Installing deferred Rack instrumentation
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] INFO : Installing Rails 3 Controller instrumentation
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] INFO : Installing Rails3 Error instrumentation
+[04/18/14 15:59:02 -0400 andres-mbp.home (4764)] INFO : Finished instrumentation

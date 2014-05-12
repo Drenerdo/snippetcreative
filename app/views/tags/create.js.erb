@@ -1,0 +1,5 @@
+var $form = $('#new_tag');
+var $field = $form.find('input[type=text]');
+var $tags = $('.tags[data-id="<%= @taggable.id %>"]');
+$field.val('');
+$tags.prepend("<%= escape_javascript(render(@tag)) %>")

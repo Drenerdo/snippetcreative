@@ -1,0 +1,9 @@
+added a new <%= resume.resume.canonical %> to their resume.
+<div class="item resume">
+	<% if resume.resume.is_a? School %>
+	<i class="icon icon-book"></i> <%= resume.resume.school %> for <%= resume.resume.concentration %>
+	<% elsif resume.resume.is_a? Employment %>
+	<i class="icon icon-briefcase"></i> <%= resume.resume.position %> at <%= resume.resume.employer %>
+	<% end %>
+	<p><%= resume.time_start.strftime("%B %Y") %> &#8212; <% if resume.present %>present<% else %><%= resume.time_end.strftime("%B %Y") %><% end %></p>
+</div>

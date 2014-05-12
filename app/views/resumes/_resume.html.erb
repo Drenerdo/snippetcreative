@@ -1,0 +1,8 @@
+<li class="span12">
+	<%= render resume.resume %>
+	<div class="date">
+		<p><%= resume.time_start.strftime("%B %Y") %>
+			&#8212; 
+			<% if resume.present %>present<% else %><%= resume.time_end.strftime("%B %Y") %><% end %></p>
+	</div>
+</li>

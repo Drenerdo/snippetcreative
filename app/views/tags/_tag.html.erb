@@ -1,0 +1,6 @@
+<li data-tag="<%= tag.tag %>">
+	<div class="btn-group">
+		<%= link_to tag.tag, tag, :class => 'btn' %>
+		<%= link_to 'Remove', tag, :method => :delete, :remote => true, :class => 'btn remove' if @tag %>
+	</div>
+</li>

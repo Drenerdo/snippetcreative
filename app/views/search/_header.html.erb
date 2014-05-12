@@ -1,0 +1,9 @@
+<div class="head small">
+	<h3 class="pull-left">
+		<i class="icon icon-search"></i> <%= params[:q] %>
+	</h3>
+	<div class="btn-group pull-right">
+		<%= link_to 'People', search_users_path(:q => params[:q]), :class => current_page?(search_users_path(:q => params[:q])) ? "btn active" : "btn" %>
+		<%#= link_to 'Jobs', search_jobs_path(:q => params[:q]), :class => current_page?(search_jobs_path(:q => params[:q])) ? "btn active" : "btn" %>
+	</div>
+</div>

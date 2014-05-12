@@ -1,0 +1,24 @@
+<% provide(:title, 'Sign up') %>
+<div class="form small">
+	<div class="head small">
+		<h3><i class="icon icon-lock"></i> Sign up</h3>
+	</div>
+	<div class="box">
+		<%= form_for(@user) do |f| %>
+		<%= render 'shared/error_messages', object: f.object %>
+	  <%= f.text_field :name, placeholder: "Full name" %>
+
+		<%= f.text_field :username, placeholder: "Username" %>
+
+		<%= f.text_field :email, placeholder: "E-mail address" %>
+
+		<%= f.password_field :password, placeholder: "Password" %>
+
+		<%= f.password_field :password_confirmation, placeholder: "Password, again" %>
+
+		<%= f.submit "Sign up", class: "btn btn-large btn-primary" %>
+		<% end %>
+		<div class="boxshadow"></div>
+		<span class="foot">Already a member? <%= link_to 'Sign in.', signin_path %></span>
+	</div>
+</div>

@@ -1,0 +1,42 @@
+<div class="head small user">
+	<div class="picture">
+		<span>
+			<%= image_tag @user.picture.url(:small) if @user.picture %>
+			<span id="relationship" data-user="<%= @user.id %>">
+				<%= link_to 'Edit', edit_user_path(current_user), :class => 'btn btn-tiny btn-primary' if current_user?(@user) %>
+				<%= render 'users/relationship', :user => @user unless current_user?(@user) %>
+			</span>
+		</span>
+	</div>
+	<div class="name">
+		<h2><%= @user.username %></h2>
+		<h3><%= @user.name %></h3>
+		<p><%= @user.location %></p>
+		<%= render 'tags/tags', :object => @user %>
+	</div>
+	<div class="relationships">
+		<div class="btn-group">
+			<%= link_to following_user_path(@user), :id => 'following', :class => 'btn btn-small' do %>
+			<%= @user.followed_users.count %>
+			<% end %>
+			<%= link_to following_user_path(@user), :class => 'btn btn-small' do %>
+			Following
+			<% end %>
+		</div>
+		<div class="btn-group">
+		<%= link_to followers_user_path(@user), :id => 'followers', :class => 'btn btn-small' do %>
+		<%= @user.followers.count %>
+		<% end %>
+			<%= link_to followers_user_path(@user), :class => 'btn btn-small' do %>
+			Followers
+			<% end %>
+		</div>
+		<% unless current_user?(@user) %>
+		<div class="btn-group">
+			<%#= link_to 'Offer', new_user_offer_path(@user), :class => 'btn btn-small' %>
+			<%= link_to 'Message', user_messages_path(@user), :class => 'btn btn-small' %>
+			<%= link_to 'Collaborate', "#", :class => 'btn btn-small' %>
+		</div>
+		<% end %>
+	</div>
+</div>

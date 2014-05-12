@@ -1,0 +1,10 @@
+<li>
+	
+	<%= image_tag comment.user.picture.url(:small) %>
+	
+	<div class="comment">
+		<div class="user"><%= link_to comment.user.name, comment.user %><span>posted <%= time_ago_in_words(comment.created_at) %> ago</span></div>
+		<%= simple_format(comment.comment) %>
+	</div>
+	
+</li>

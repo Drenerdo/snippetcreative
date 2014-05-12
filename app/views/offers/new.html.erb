@@ -1,0 +1,15 @@
+<div class="content">
+	<%= render 'shared/user_info' %>
+	<div class="head small smaller black">
+		<h2 class="pull-left">Offer</h2>
+	</div>
+	<div class="box">
+		<div class="row">
+			<% if @jobs.any? %>
+			<%= render 'jobs/jobs', :collection => @jobs %>
+			<% else %>
+			<%= render 'shared/empty', :title => 'You have no jobs to offer.', :caption => 'Add a job.' %>
+			<% end %>
+		</div>
+	</div>
+</div>

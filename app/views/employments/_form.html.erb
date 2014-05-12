@@ -1,0 +1,45 @@
+<div class="form-horizontal">
+<%= form_for(@employment) do |f| %>
+	<%= render 'shared/error_messages', object: f.object %>
+	<div class="control-group">
+		<%= f.label :employer, :class => 'control-label' %>
+		<div class="controls">
+			<%= f.text_field :employer %>
+		</div>
+	</div>
+	<div class="control-group">
+		<%= f.label :position, :class => 'control-label' %>
+		<div class="controls">
+			<%= f.text_field :position %>
+		</div>
+	</div>
+	<%= fields_for @resume do |r| %>
+	<div class="control-group">
+		<%= r.label :time_start, 'From', :class => 'control-label' %>
+		<div class="controls">
+			<%= r.date_select :time_start, :order => [:month, :year] %>
+		</div>
+	</div>
+	<div class="control-group">
+		<%= r.label :time_end, 'To', :class => 'control-label' %>
+		<div class="controls">
+			<%= r.date_select :time_end, :order => [:month, :year] %>
+			<label class="checkbox">
+				<%= r.check_box :present %> I currently work here.
+			</label>
+		</div>
+	</div>
+	<% end %>
+	<div class="control-group">
+		<%= f.label :desc, :class => 'control-label' %>
+		<div class="controls">
+			<%= f.text_area :desc %>
+		</div>
+	</div>
+	<div class="control-group">
+		<div class="controls">
+			<%= f.submit "Add", class: "btn btn-large btn-primary" %>
+		</div>
+	</div>
+<% end %>	
+</div>

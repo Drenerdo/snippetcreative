@@ -1,0 +1,4 @@
+<div class="messages">
+	<%= render @messages unless @messages.empty? %>
+	<%= render 'shared/empty', :title => 'No messages.', :caption => nil if @messages.empty? %>
+</div>

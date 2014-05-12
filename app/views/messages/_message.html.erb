@@ -1,0 +1,9 @@
+<div class="message<% if message.unread %> unread<% end %>">
+	<div class="picture">
+		<%= image_tag message.user.picture.url(:small) if message.user.picture %>
+	</div>
+	<div class="stage">
+		<h3><%= link_to message.user.name, message.user unless current_user?(message.user) %><%= message.user.name if current_user?(message.user) %><span class="pull-right"><%= time_ago_in_words(message.created_at) %> ago</span></h3>
+		<%= simple_format message.message %>
+	</div>
+</div>

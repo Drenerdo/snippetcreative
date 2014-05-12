@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  employer: MyString
+  position: MyString
+  desc: MyString
+
+two:
+  employer: MyString
+  position: MyString
+  desc: MyString

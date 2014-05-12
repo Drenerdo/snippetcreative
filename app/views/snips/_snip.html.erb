@@ -1,0 +1,17 @@
+<li class="span6" data-id="<%= snip.id %>">
+	<div class="thumbnail">
+	<%= link_to "Delete", snip_path(snip), method: :delete, :remote => true, :class => 'delete' if current_user?(snip.user) %>
+	<%= render snip.snip %>
+	<div class="caption clearfix">
+		<h2><%= link_to snip.name, snip %></h2>
+		<div class="btn-group like-group">
+			<%= render 'snips/like', :snip => snip %>
+			<%= link_to snip, :class => 'btn btn-tiny' do %>
+			<i class="icon-inbox"></i>
+			<% end %>
+			<%= link_to snip, :class => 'btn btn-tiny' do %>
+			<%= snip.comments.count %>
+			<% end %>
+		</div>
+	</div>
+</li>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= full_title(yield(:title)) %></title>
+    <%= stylesheet_link_tag    "application", media: "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+    <%= render 'layouts/shim' %>  
+  </head>
+  <body id="home">
+	<div class="stage">
+
+		
+		<div class="message">
+			<div>
+				<p>Welcome to <strong>Suitefolio</strong></p>
+				<%= link_to "Sign in", new_user_session_path, :class => 'btn btn-success btn-large' %>
+				<%= link_to "Register", new_user_registration_path, :class => 'btn btn-success btn-large' %>
+			</div>
+		</div>
+		
+	</div>
+	<div class="alert alert-warning alert-dismissable">
+  		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  		<strong>Hello World!</strong> Suitefolio is going through a transition and we will become more a of a software company not just a platform that does a portfolio social network… Don’t worry you will still have access to your Suitefolio account and updates and new features will be on the site soon!!!
+	</div>
+  	<div id="bg">
+		<%# @snips.each do |snip| %>
+			<%#= image_tag snip.snip.image.url(:large) %>
+		<%# end %>
+  	</div>
+  </body>
+</html>

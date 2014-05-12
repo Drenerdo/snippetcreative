@@ -1,0 +1,17 @@
+
+	<ul id="comments">
+		<li>
+
+			<%= image_tag current_user.picture.url(:small) %>
+
+			<div class="comment">
+				<div class="user"><%= link_to current_user.name, current_user %></div>
+				<%= form_for [ @snip, Comment.new ], :remote => true do |f| %>
+				<%= f.text_area :comment %>
+				<%= f.submit "Add", :class => 'btn btn-success' %>
+				<% end %>
+			</div>
+
+		</li>
+		<%= render collection  %>
+	</ul>

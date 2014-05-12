@@ -1,0 +1,8 @@
+<% if @feed.any? %>
+<ul class="activity">
+	<%= render @feed %>
+</ul>
+<%= will_paginate @feed %>
+<% else %>
+<%= render 'shared/empty', :title => 'Welcome to Suitefolio', :caption => 'Follow talented creative professionals, look for available jobs, or offer your own.' %>
+<% end %>

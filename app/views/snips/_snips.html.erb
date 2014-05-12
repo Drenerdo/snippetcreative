@@ -1,0 +1,14 @@
+<% if @snips.any? %>
+<div class="snip">
+	<div class="thumbnails">
+		<ul>
+		<%= render @snips %>
+		</ul>
+		<div class="span12">
+			<%= will_paginate @snips %>
+		</div>
+	</div>
+</div>
+<% else %>
+<%= render 'shared/empty', :title => @user.name + ' has not uploaded anything yet.', :caption => 'Check back soon.' %>
+<% end %>

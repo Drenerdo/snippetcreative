@@ -1,0 +1,28 @@
+<% if current_user?(@user) %>
+	<%= link_to "Edit", [:edit, @snip.snip], :class => 'btn pull-right' %><Br /><br />
+<% end %>
+<div id="snip">
+	<div class="stage">
+		<div class="info">
+			<label class="title"><%= @snip.name %> <small><%= @snip.snip.canonical %></small></label>
+			<% if @snip.snip.is_a? Website %>
+			<label class="title"><%= link_to "view web site", @snip.snip.url %></label>
+			<% end %>
+			<label class="date">added <%= time_ago_in_words(@snip.created_at) %> ago by <%= link_to @snip.user.name, @snip.user %></label>
+		</div>
+		<% if @snip.snip.is_a? Video %>
+			<iframe src="http://player.vimeo.com/video/<%= @snip.snip.vimeo %>" frameborder="0" 
+				webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		<% else %>
+			<%= image_tag @snip.snip.image.url(:large) %>
+		<% end %>
+	</div>
+	<div class="content">
+		<div class="head small smaller black">
+			<h2><i class="icon icon-pencil"></i> Comments</h2>
+		</div>
+		<div id="comment">
+		<%= render 'comments/comments', :collection => @snip.comments %>
+		</div>
+	</div>
+</div>

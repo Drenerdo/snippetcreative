@@ -1,0 +1,2 @@
+$('.messages').load('<%= escape_javascript(url_for(messages_user_path(@user))) %> .messages .message');
+$('#message_message').val('').html('');

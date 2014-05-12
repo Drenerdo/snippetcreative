@@ -1,0 +1,17 @@
+<li class="item">
+	<%= image_tag activity.user.picture.url(:tiny) %><span class="pull-right"><%= time_ago_in_words(activity.created_at) %> ago</span>
+	<div class="info">
+		<strong><%= link_to activity.user.name, activity.user %></strong>
+		<%=
+		if activity.activity.is_a? Snip
+		  render :partial => 'activities/snip', :locals => { :snip => activity.activity.snip }
+		elsif activity.activity.is_a? Relationship
+		  render :partial => 'activities/user', :locals => { :user => activity.activity }
+		elsif activity.activity.is_a? Resume
+		  render :partial => 'activities/resume', :locals => { :resume => activity.activity }
+		elsif activity.activity.is_a? Like
+		  render :partial => 'activities/like', :locals => { :like => activity.activity }
+		end
+		%>
+	</div>
+</li>

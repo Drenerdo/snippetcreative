@@ -1,0 +1,3 @@
+$snip = $('[data-id=<%= @snip.id %>]');
+$likes = $snip.find('.like-group');
+$likes.html('<%= escape_javascript(render 'snips/like', :snip => @snip) %>');

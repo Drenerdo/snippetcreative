@@ -1,0 +1,15 @@
+<div class="head small smaller black">
+	<h2 class="pull-left">Resume</h2>
+	<%= link_to 'Add', new_resume_path, :class => 'btn btn-inverse btn-large pull-right' if @resume %>
+</div>
+<% if @resumes.any? %>
+<div class="resume">
+	<div class="thumbnails">
+		<ul>
+		<%= render @resumes %>
+		</ul>
+	</div>
+</div>
+<% else %>
+<%= render 'shared/empty', :title => @user.name + ' has not added anything here.', :caption => 'Check back soon.' %>
+<% end %>

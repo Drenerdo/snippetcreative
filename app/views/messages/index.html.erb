@@ -1,0 +1,24 @@
+<div class="form large">
+	<div class="head small">
+		<h3><i class="icon icon-envelope"></i> Messages</h3>
+	</div>
+	<div class="box">
+		<% if @messages %>
+		<div class="messages">
+			<% @messages.each do |message| %>
+			<div class="message<% if message.unread %> unread<% end %>">
+				<div class="picture">
+					<%= image_tag message.user.picture.url(:small) if message.user.picture %>
+				</div>
+				<div class="stage">
+					<h3><%= link_to message.user.name, user_messages_path(message.user) unless current_user?(message.user) %><%= message.user.name if current_user?(message.user) %><span class="pull-right"><%= time_ago_in_words(message.created_at) %> ago</span></h3>
+					<%= simple_format message.message %>
+				</div>
+			</div>
+			<% end %>
+		</div>
+		<% else %>
+		<%= render 'shared/empty', :title => 'You have no messages.', :caption => nil %>
+		<% end %>
+	</div>
+</div>

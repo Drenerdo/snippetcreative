@@ -1,0 +1,8 @@
+
+<li<% if !notification.read %> class="read"<% end %>>
+	<div>
+		<%= link_to notification.notify do %><%= notification.notify.notification %><% end %>
+		<span><%= time_ago_in_words(notification.created_at) %> ago</span>
+	</div>
+	<%= image_tag notification.notify.n_user.picture.url(:tiny) %>
+</li>

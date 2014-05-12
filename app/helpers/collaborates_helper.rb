@@ -1,0 +1,2 @@
+module CollaboratesHelper
+end

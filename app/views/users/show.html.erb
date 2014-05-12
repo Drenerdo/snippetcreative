@@ -1,0 +1,21 @@
+<% provide(:title, @user.name) %>
+<div class="content">
+  <%= render 'shared/user_info' %>
+	<% if @user.about? %>
+	<div class="head small smaller black">
+		<h2>About</h2>
+		<%= simple_format @user.about %>
+	</div>
+	<% end %>
+	<div class="head small smaller black">
+		<h2 class="pull-left">Portfolio</h2>
+		<% if @snip %>
+		<a href="#snip" role="button" class="btn btn-large btn-inverse pull-right" data-toggle="modal">Add</a>
+		<div class="modal hide fade" id="snip" tabindex="-1" role="dialog" aria-hidden="true">
+			<%= render 'snips/form' %>
+		</div>
+		<% end %>
+	</div>
+  <%= render 'snips/snips' %>
+  <%= render 'resumes/resumes' %>
+</div>

@@ -1,0 +1,4 @@
+<%= link_to "Edit", edit_employment_path(employment), class: "btn pull-right" if current_user?(employment.resume.user) %>
+<h2><%= employment.position %></h2>
+<h3><%= employment.employer %></h3>
+<p><%= employment.desc %></p>

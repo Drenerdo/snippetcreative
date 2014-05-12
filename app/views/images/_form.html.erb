@@ -1,0 +1,11 @@
+<%= form_for @image, :html => { :multipart => true } do |f| %>
+  <%= render 'shared/error_messages', object: f.object %>
+	<%= fields_for @snip do |r| %>
+		<%= r.text_field :name, placeholder: 'Name' %>
+		<%= r.text_area :desc, placeholder: 'Description' %>
+	<% end %>
+	<%= f.file_field :image %>
+	<div class="submit">
+		<%= f.submit :class => 'btn btn-primary btn-large' %>
+	</div>
+<% end %>

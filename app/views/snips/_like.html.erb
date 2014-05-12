@@ -1,0 +1,12 @@
+<% if snip.likes.find_by_user_id(current_user.id).present? %>
+<%= link_to([:unlike, snip], :remote => true, :class => 'btn btn-tiny disabled') do %>
+<i class="icon-thumbs-up"></i>
+<% end %>
+<% else %>
+<%= link_to([:like, snip], :remote => true, :class => 'btn btn-tiny') do %>
+<i class="icon-thumbs-up"></i>
+<% end %>
+<% end %>
+<%= link_to [:likes, snip], :class => 'btn btn-tiny' do %>
+<span class="like-count"><%= snip.likes.count %></span>
+<% end %>

@@ -1,0 +1,12 @@
+<%= form_for @video, :html => { :multipart => true } do |f| %>
+  <%= render 'shared/error_messages', object: f.object %>
+	<%= fields_for @snip do |r| %>
+		<%= r.text_field :name, placeholder: 'Name' %>
+		<%= r.text_area :desc, placeholder: 'Description' %>
+	<% end %>
+	<%= f.text_field :vimeo, placeholder: 'Vimeo ID' %>
+	<span class="help-block">vimeo.com/<strong>0000000</strong></span>
+	<div class="submit">
+		<%= f.submit :class => 'btn btn-primary btn-large' %>
+	</div>
+<% end %>

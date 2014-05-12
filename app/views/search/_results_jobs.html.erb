@@ -1,0 +1,12 @@
+<div class="box">
+	<div class="row">
+		<h3 class="span12">
+			<i class="icon icon-briefcase"></i> Jobs
+		</h3>
+		<% if @jobs.any? %>
+		<%= render 'jobs/jobs', :collection => @jobs %>
+		<% else %>
+		<%= render 'shared/empty', :title => 'No results.', :caption => nil %>
+		<% end %>
+	</div>
+</div>

@@ -1,0 +1,4 @@
+<%= form_for [@user, @offer] do |f|  %>
+  <%= f.hidden_field :job_id, :value => job.id %>
+  <%= f.submit 'Offer', :class => 'btn pull-right' %>
+<% end %>

@@ -1,0 +1,16 @@
+<% provide(:title, @title) %>
+<div class="content">
+	<%= render 'shared/user_info' %>
+	<div class="box">
+		<div class="row">
+			<h3 class="span12">
+				<i class="icon icon-user"></i> <%= @title %>
+			</h3>
+			<% if @users.any? %>
+			<%= render 'users/users' %>
+			<% else %>
+			<%= render 'shared/empty', :title => 'No results.', :caption => nil %>
+			<% end %>
+		</div>
+	</div>
+</div>

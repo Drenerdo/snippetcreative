@@ -1,0 +1,32 @@
+<% provide(:title, 'Add to resume') %>
+<div class="form large">
+	<div class="head small">
+		<h3><i class="icon icon-briefcase"></i> Add</h3>
+	</div>
+	<ul class="nav nav-tabs">
+	  <li class="active"><a href="#employment" data-toggle="tab">Professional Experience</a></li>
+	  <li><a href="#school" data-toggle="tab">Link Your Resumes</a></li>
+	</ul>
+	<div class="boxshadow"></div>
+	<div class="box">
+		<div class="tab-content">
+			
+			<% # PROFESSIONAL EXPERIENCE %>
+			<div class="tab-pane active" id="employment">
+				<%= render 'employments/form' %>
+			</div>
+			
+			<% # EDUCATION %>
+			<div class="tab-pane" id="school">
+				<%#= render 'schools/form' %>
+				<p>We are working on Linkedin support for resume uploading</p>
+			</div> 
+			
+			
+		</div>
+	</div>
+
+</div>
+
+
+

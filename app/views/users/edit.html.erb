@@ -1,0 +1,83 @@
+<% provide(:title, "Settings") %> 
+<div class="form large">
+	<div class="head small">
+		<h3>Settings</h3>
+	</div>
+	<ul class="nav nav-tabs">
+	  <li class="active"><a href="#settings" data-toggle="tab">Settings</a></li>
+	  <li><a href="#skills" data-toggle="tab">Skills</a></li>
+	</ul>
+	<div class="boxshadow"></div>
+	<div class="box">
+		<div class="tab-content">
+			
+			<% # SETTINGS %>
+			<div class="tab-pane active" id="settings">
+				<div class="form-horizontal">
+			    <%= form_for(@user) do |f| %>
+					<%= render 'shared/error_messages', object: f.object %>
+					<div class="control-group">
+						<%= f.label :username, :class => 'control-label' %>
+						<div class="controls">
+							<%= f.text_field :username %>
+						</div>
+					</div>
+					<div class="control-group">
+						<%= f.label :name, :class => 'control-label' %>
+						<div class="controls">
+							<%= f.text_field :name %>
+						</div>
+					</div>
+					<div class="control-group">
+						<%= f.label :email, :class => 'control-label' %>
+						<div class="controls">
+							<%= f.text_field :email %>
+						</div>
+					</div>
+					<div class="control-group">
+						<%= f.label :location, :class => 'control-label' %>
+						<div class="controls">
+							<%= f.text_field :location %>
+						</div>
+					</div>
+					<div class="control-group">
+						<%= f.label :picture, :class => 'control-label' %>
+						<div class="controls">
+							<div class="picture">
+								<%= image_tag @user.picture.url(:small), :class => 'pull-left user' %>
+								<div class="field">
+									<span class="help-block">This picture is your identity on Suitefolio.</span>
+									<%= f.file_field :picture %>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="control-group">
+						<%= f.label :about, :class => 'control-label' %>
+						<div class="controls">
+							<%= f.text_area :about %>
+						</div>
+					</div>
+					<div class="control-group">
+						<div class="controls">
+							<%= f.submit "Save", class: "btn btn-large btn-primary" %>
+						</div>
+					</div>
+				</div>
+		    	<% end %>
+			</div>
+			
+			<% # SKILLS %>
+			<div class="tab-pane" id="skills">
+				<%= render 'shared/form_tag', :object => @user, :tag => @tag %>
+				<%= render 'tags/tags', :object => @user %> 
+			</div>
+			
+			
+		</div>
+	</div>
+
+</div>
+
+
+

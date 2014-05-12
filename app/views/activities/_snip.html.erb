@@ -1,0 +1,10 @@
+added a <%= snip.canonical %>.
+<div class="item snip">
+	<% unless snip.is_a? Video %>
+		<%= image_tag snip.image.url(:thumb) %>
+	<% else %>
+		<iframe src="http://player.vimeo.com/video/<%= snip.vimeo %>" frameborder="0" 
+			webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	<% end %>
+	<h3><%= link_to snip.snip.name, snip.snip %></h3>
+</div>

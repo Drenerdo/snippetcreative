@@ -1,0 +1,21 @@
+<ul class="nav nav-tabs">
+	<li class="active"><a href="#image" data-toggle="tab">Photo</a></li>
+	<li><a href="#video" data-toggle="tab">Video</a></li>
+	<li><a href="#website" data-toggle="tab">Website</a></li>
+</ul>
+<div class="boxshadow"></div>
+<div class="box">
+	<div class="tab-content">
+		
+		<div class="tab-pane active" id="image">
+			<%= render 'images/form' %>
+		</div>
+		<div class="tab-pane" id="video">
+			<%= render 'videos/form' %>
+		</div>
+		<div class="tab-pane" id="website">
+			<%= render 'websites/form' %>
+		</div>
+		
+	</div>
+</div>

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  time_start: 2012-10-24 17:45:10
+  time_end: 2012-10-24 17:45:10
+
+two:
+  time_start: 2012-10-24 17:45:10
+  time_end: 2012-10-24 17:45:10

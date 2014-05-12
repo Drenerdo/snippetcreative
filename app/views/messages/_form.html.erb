@@ -1,0 +1,4 @@
+<%= form_for [@user, @message], :remote => remote_off ? false : true do |f| %>
+	<%= f.text_area :messages %>
+	<%= f.submit 'Send', :class => 'btn btn-primary btn-large' %>
+<% end %>
